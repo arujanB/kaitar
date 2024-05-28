@@ -1,19 +1,11 @@
-//
-//  ViewController.swift
-//  kaitar
-//
-//  Created by Aruzhan Boranbay on 28.05.2024.
-//
-
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .red
     }
-
-
 }
 

@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59FECD8D06191F11E9BC7A4E /* Pods_kaitar_kaitarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BC6742F62F3A98B48007C5 /* Pods_kaitar_kaitarUITests.framework */; };
 		791F25922C0609A300BBA813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F25912C0609A300BBA813 /* AppDelegate.swift */; };
 		791F25942C0609A300BBA813 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F25932C0609A300BBA813 /* SceneDelegate.swift */; };
 		791F25962C0609A300BBA813 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F25952C0609A300BBA813 /* ViewController.swift */; };
-		791F25992C0609A300BBA813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791F25972C0609A300BBA813 /* Main.storyboard */; };
 		791F259C2C0609A300BBA813 /* kaitar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 791F259A2C0609A300BBA813 /* kaitar.xcdatamodeld */; };
 		791F259E2C0609A400BBA813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791F259D2C0609A400BBA813 /* Assets.xcassets */; };
 		791F25A12C0609A400BBA813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791F259F2C0609A400BBA813 /* LaunchScreen.storyboard */; };
 		791F25AC2C0609A500BBA813 /* kaitarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F25AB2C0609A500BBA813 /* kaitarTests.swift */; };
 		791F25B62C0609A500BBA813 /* kaitarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F25B52C0609A500BBA813 /* kaitarUITests.swift */; };
 		791F25B82C0609A500BBA813 /* kaitarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F25B72C0609A500BBA813 /* kaitarUITestsLaunchTests.swift */; };
+		AF083B7847F0284373817758 /* Pods_kaitar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFA5B1A941DF1879B4A540D /* Pods_kaitar.framework */; };
+		BCAE6772CE8F822D529F178A /* Pods_kaitarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47AE4DEE54B3F8C21793F1F /* Pods_kaitarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FFA5B1A941DF1879B4A540D /* Pods_kaitar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kaitar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		144FD609A51BA55B3679F40F /* Pods-kaitar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaitar.debug.xcconfig"; path = "Target Support Files/Pods-kaitar/Pods-kaitar.debug.xcconfig"; sourceTree = "<group>"; };
+		3D311C4D346485445C613B28 /* Pods-kaitarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaitarTests.release.xcconfig"; path = "Target Support Files/Pods-kaitarTests/Pods-kaitarTests.release.xcconfig"; sourceTree = "<group>"; };
+		4501191CCB169DC316F8025B /* Pods-kaitar-kaitarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaitar-kaitarUITests.debug.xcconfig"; path = "Target Support Files/Pods-kaitar-kaitarUITests/Pods-kaitar-kaitarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		791F258E2C0609A300BBA813 /* kaitar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaitar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		791F25912C0609A300BBA813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		791F25932C0609A300BBA813 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		791F25952C0609A300BBA813 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		791F25982C0609A300BBA813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		791F259B2C0609A300BBA813 /* kaitar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kaitar.xcdatamodel; sourceTree = "<group>"; };
 		791F259D2C0609A400BBA813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		791F25A02C0609A400BBA813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,11 @@
 		791F25B12C0609A500BBA813 /* kaitarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaitarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		791F25B52C0609A500BBA813 /* kaitarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaitarUITests.swift; sourceTree = "<group>"; };
 		791F25B72C0609A500BBA813 /* kaitarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaitarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		945A46806191B454CCEBC665 /* Pods-kaitarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaitarTests.debug.xcconfig"; path = "Target Support Files/Pods-kaitarTests/Pods-kaitarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A47AE4DEE54B3F8C21793F1F /* Pods_kaitarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kaitarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B129AD4748794F9681333EA1 /* Pods-kaitar-kaitarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaitar-kaitarUITests.release.xcconfig"; path = "Target Support Files/Pods-kaitar-kaitarUITests/Pods-kaitar-kaitarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6BC6742F62F3A98B48007C5 /* Pods_kaitar_kaitarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kaitar_kaitarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF007F4A0494B3B6E3FD570C /* Pods-kaitar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaitar.release.xcconfig"; path = "Target Support Files/Pods-kaitar/Pods-kaitar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF083B7847F0284373817758 /* Pods_kaitar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCAE6772CE8F822D529F178A /* Pods_kaitarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59FECD8D06191F11E9BC7A4E /* Pods_kaitar_kaitarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +98,8 @@
 				791F25AA2C0609A500BBA813 /* kaitarTests */,
 				791F25B42C0609A500BBA813 /* kaitarUITests */,
 				791F258F2C0609A300BBA813 /* Products */,
+				FDD872968C6CAEE8A59E40DF /* Pods */,
+				8282CAA5A2AA8A8B7AA09A4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +119,6 @@
 				791F25912C0609A300BBA813 /* AppDelegate.swift */,
 				791F25932C0609A300BBA813 /* SceneDelegate.swift */,
 				791F25952C0609A300BBA813 /* ViewController.swift */,
-				791F25972C0609A300BBA813 /* Main.storyboard */,
 				791F259D2C0609A400BBA813 /* Assets.xcassets */,
 				791F259F2C0609A400BBA813 /* LaunchScreen.storyboard */,
 				791F25A22C0609A400BBA813 /* Info.plist */,
@@ -130,6 +144,29 @@
 			path = kaitarUITests;
 			sourceTree = "<group>";
 		};
+		8282CAA5A2AA8A8B7AA09A4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FFA5B1A941DF1879B4A540D /* Pods_kaitar.framework */,
+				C6BC6742F62F3A98B48007C5 /* Pods_kaitar_kaitarUITests.framework */,
+				A47AE4DEE54B3F8C21793F1F /* Pods_kaitarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDD872968C6CAEE8A59E40DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				144FD609A51BA55B3679F40F /* Pods-kaitar.debug.xcconfig */,
+				FF007F4A0494B3B6E3FD570C /* Pods-kaitar.release.xcconfig */,
+				4501191CCB169DC316F8025B /* Pods-kaitar-kaitarUITests.debug.xcconfig */,
+				B129AD4748794F9681333EA1 /* Pods-kaitar-kaitarUITests.release.xcconfig */,
+				945A46806191B454CCEBC665 /* Pods-kaitarTests.debug.xcconfig */,
+				3D311C4D346485445C613B28 /* Pods-kaitarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 791F25BB2C0609A500BBA813 /* Build configuration list for PBXNativeTarget "kaitar" */;
 			buildPhases = (
+				6279D04D445F5E82D1408858 /* [CP] Check Pods Manifest.lock */,
 				791F258A2C0609A300BBA813 /* Sources */,
 				791F258B2C0609A300BBA813 /* Frameworks */,
 				791F258C2C0609A300BBA813 /* Resources */,
+				45BE41B6E925F7D2B8E64322 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 791F25BE2C0609A500BBA813 /* Build configuration list for PBXNativeTarget "kaitarTests" */;
 			buildPhases = (
+				36A3B8B60A377CED21252D82 /* [CP] Check Pods Manifest.lock */,
 				791F25A32C0609A500BBA813 /* Sources */,
 				791F25A42C0609A500BBA813 /* Frameworks */,
 				791F25A52C0609A500BBA813 /* Resources */,
@@ -172,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 791F25C12C0609A500BBA813 /* Build configuration list for PBXNativeTarget "kaitarUITests" */;
 			buildPhases = (
+				1D82B5AC4F7FEE375B6675EE /* [CP] Check Pods Manifest.lock */,
 				791F25AD2C0609A500BBA813 /* Sources */,
 				791F25AE2C0609A500BBA813 /* Frameworks */,
 				791F25AF2C0609A500BBA813 /* Resources */,
+				4994F50D03F7B6E7B900C587 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +278,6 @@
 			files = (
 				791F25A12C0609A400BBA813 /* LaunchScreen.storyboard in Resources */,
 				791F259E2C0609A400BBA813 /* Assets.xcassets in Resources */,
-				791F25992C0609A300BBA813 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +296,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D82B5AC4F7FEE375B6675EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kaitar-kaitarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36A3B8B60A377CED21252D82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kaitarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45BE41B6E925F7D2B8E64322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kaitar/Pods-kaitar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kaitar/Pods-kaitar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kaitar/Pods-kaitar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4994F50D03F7B6E7B900C587 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kaitar-kaitarUITests/Pods-kaitar-kaitarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kaitar-kaitarUITests/Pods-kaitar-kaitarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kaitar-kaitarUITests/Pods-kaitar-kaitarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6279D04D445F5E82D1408858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kaitar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		791F258A2C0609A300BBA813 /* Sources */ = {
@@ -301,14 +445,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		791F25972C0609A300BBA813 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				791F25982C0609A300BBA813 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		791F259F2C0609A400BBA813 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -357,7 +493,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -420,7 +556,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -441,6 +577,7 @@
 		};
 		791F25BC2C0609A500BBA813 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144FD609A51BA55B3679F40F /* Pods-kaitar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,7 +588,6 @@
 				INFOPLIST_FILE = kaitar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,6 +605,7 @@
 		};
 		791F25BD2C0609A500BBA813 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF007F4A0494B3B6E3FD570C /* Pods-kaitar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,7 +616,6 @@
 				INFOPLIST_FILE = kaitar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -497,6 +633,7 @@
 		};
 		791F25BF2C0609A500BBA813 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945A46806191B454CCEBC665 /* Pods-kaitarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +654,7 @@
 		};
 		791F25C02C0609A500BBA813 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D311C4D346485445C613B28 /* Pods-kaitarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +675,7 @@
 		};
 		791F25C22C0609A500BBA813 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4501191CCB169DC316F8025B /* Pods-kaitar-kaitarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +694,7 @@
 		};
 		791F25C32C0609A500BBA813 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B129AD4748794F9681333EA1 /* Pods-kaitar-kaitarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

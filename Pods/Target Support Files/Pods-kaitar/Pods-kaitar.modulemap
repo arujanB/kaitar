@@ -1,0 +1,6 @@
+framework module Pods_kaitar {
+  umbrella header "Pods-kaitar-umbrella.h"
+
+  export *
+  module * { export * }
+}
